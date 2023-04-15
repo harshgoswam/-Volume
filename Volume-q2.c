@@ -34,5 +34,6 @@ int main()
     {
         printf("Student %d\n",i+1);
 	    percentage = (marks[i].chem_marks + marks[i].maths_marks + marks[i].phy_marks)*100/300;
-	    printf("Percentage : %0.2f\n", percentage);	}
+	    printf("Percentage : %0.2f\n", percentage);
+    }
 }
